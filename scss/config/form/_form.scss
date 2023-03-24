@@ -1,7 +1,65 @@
-.form {
-    width: 100%;
-}
-.form__container {
-    width: 60%;
-    margin: 0 auto;
+@media screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+        &__container {
+            width: 98%;
+            margin: 0 auto;
+            &__title {
+                text-align: center;
+                margin: 50px 0 20px 0;
+                font-size: 28px;
+                color: #737373;
+            }
+            &__recruit {
+                width: 100%;
+                &__title {
+                    font-size: 16px;
+                    border: 1px solid #e85298;
+                    padding: 5px 10px 5px 10px;
+                    color: #e85298;
+                    font-weight: normal;
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                }
+                &__text {
+                    font-size: 14px;
+                    color: #666666;
+                }
+                &__must {
+                    font-size: 14px;
+                    color: #333333;
+                    font-weight: normal;
+                    margin-top: 20px;
+                    &__list {
+                        color: #333333;
+                        &_pink {
+                            font-weight: nomal;
+                            color: #e85298;
+                        }
+                    }
+                    &__outline {
+                        margin: 16px 0 12px 0;
+                        font-size: 13px;
+                        list-style: none;
+                        background-color: #f2f0f0;
+                        padding: 16px 24px;
+                        border-radius: 24px;
+                    }
+                    &__link {
+                        color: #e85298;
+                        text-decoration: underline;
+                    }
+                }
+                // 擬似要素はまだ
+                &__must::after {
+                    top: 0.15em;
+                    left: 0;
+                    content: '';
+                    width: 5px;
+                    height: calc(100% - 0.2em);
+                    background-color: #f9a0ca;
+                }
+            }
+        }
+    }
 }
