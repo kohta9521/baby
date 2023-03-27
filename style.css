@@ -1,1 +1,332 @@
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 768px) {
+  .form {
+    width: 98%;
+  }
+  .form__container {
+    width: 97%;
+    margin: 0 auto;
+  }
+  .form__container__title {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-size: 28px;
+    color: #737373;
+  }
+  .form__container__recruit {
+    width: 100%;
+  }
+  .form__container__recruit__title {
+    font-size: 16px;
+    border: 1px solid #e85298;
+    padding: 5px 10px 5px 10px;
+    color: #e85298;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .form__container__recruit__text {
+    font-size: 14px;
+    color: #666666;
+  }
+  .form__container__recruit__text_pink {
+    color: #e85298;
+    font-size: 12px;
+  }
+  .form__container__recruit__must {
+    font-size: 14px;
+    color: #333333;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+  .form__container__recruit__must__list {
+    color: #333333;
+  }
+  .form__container__recruit__must__list_pink {
+    font-weight: nomal;
+    color: #e85298;
+  }
+  .form__container__recruit__must__outline {
+    margin: 16px 0 12px 0;
+    font-size: 13px;
+    list-style: none;
+    background-color: #f2f0f0;
+    padding: 16px 24px;
+    border-radius: 24px;
+  }
+  .form__container__recruit__must__link {
+    color: #e85298;
+    text-decoration: underline;
+  }
+  .form__container__recruit__input {
+    width: 100%;
+  }
+  .form__container__recruit__input__title {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form__container__recruit__input__title::after {
+    vertical-align: middle;
+    content: "*";
+    font-size: 25px;
+    font-weight: normal;
+    color: #e85298;
+    margin-left: 3px;
+    display: inline-block;
+  }
+  .form__container__recruit__input__name {
+    display: block;
+  }
+  .form__container__recruit__input__name label {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #d6d6d6;
+  }
+  .form__container__recruit__input__name label::after {
+    vertical-align: middle;
+    content: "*";
+    font-size: 25px;
+    font-weight: normal;
+    color: #e85298;
+    margin-left: 3px;
+    display: inline-block;
+  }
+  .form__container__recruit__input__name input {
+    display: block;
+    width: 95%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form__container__recruit__input__sex {
+    padding-bottom: 10px;
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__sex select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    height: 34px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    line-height: 1rm;
+    color: #666666;
+    padding: 0 30px 0 15px;
+    border: 1px solid #ccc;
+  }
+  .form__container__recruit__input__prefecture {
+    padding-bottom: 10px;
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__prefecture select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    height: 34px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    line-height: 1rm;
+    color: #666666;
+    padding: 0 30px 0 15px;
+    border: 1px solid #ccc;
+  }
+  .form__container__recruit__input__city {
+    padding-bottom: 10px;
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__city input {
+    display: block;
+    width: 90%;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .form__container__recruit__input__mail {
+    padding-bottom: 10px;
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__mail input {
+    display: block;
+    width: 95%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form__container__recruit__input__mailsec {
+    padding-bottom: 10px;
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__mailsec input {
+    display: block;
+    width: 95%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form__container__recruit__input__phone {
+    border-top: 0.8px solid #d6d6d6;
+  }
+  .form__container__recruit__input__phone input {
+    display: block;
+    width: 95%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form__container__recruit__input__check {
+    width: 100%;
+  }
+  .form__container__recruit__input__check label {
+    cursor: pointer;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    color: #666666;
+  }
+  .form__container__recruit__input__seminor {
+    width: 100%;
+  }
+  .form__container__recruit__input__seminor select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    height: 34px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    line-height: 1rm;
+    color: #666666;
+    padding: 0 30px 0 15px;
+    border: 1px solid #ccc;
+  }
+  .form__container__recruit__input__code {
+    width: 100%;
+  }
+  .form__container__recruit__input__code input {
+    display: block;
+    width: 95%;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #666666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form__container__recruit__input__code__blue {
+    padding: 15px 15px 15px 10px;
+    border: 1px solid #00cbb9;
+    background-color: #e4f9f7;
+    font-size: 14px;
+    font-weight: bold;
+    color: #00cbb9;
+    border-radius: 5px;
+  }
+  .form__container__data {
+    width: 100%;
+  }
+  .form__container__data__title {
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    font-weight: nomal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+  }
+  .form__container__data__title__red {
+    font-size: 13px;
+    color: #FF0000;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+  }
+  .form__container__data__title_subtitle {
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+  }
+  .form__container__data__title_sub {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  .form__container__submit {
+    width: 100%;
+  }
+  .form__container__submit__textright {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  .form__container__submit__textbold {
+    font-weight: 550;
+    margin-bottom: 40px;
+  }
+  .form__container__submit lebel {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  .form__container__submit__button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
